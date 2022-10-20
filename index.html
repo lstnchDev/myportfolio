@@ -8,9 +8,10 @@
     <title>MyPortfolio</title>
 </head>
 <body>
-    <section class="header-wrap">
+    <section class="header-wrap wrap">
         <header>
             <ul class="header-top">
+                <li><a href="#about">Обо мне</a></li>
                 <li><a href="#skills">Умения</a></li>
                 <li><a href="#portfolio">Портфолио</a></li>
                 <li><a href="#contacts">Контакты</a></li>
@@ -22,40 +23,133 @@
                 <h1>который хочет создавать крутые приложения</h1>    
             </div>
             <div class="header-right">
-                <img src=""/>
+                <img src="img/my-avatar.svg"/>
             </div>
             </div>
         </header>
      </section>
-    <div class="skills-wrap wrap">
-        <h1>Мои умения!</h1>
+     <div id="about" class="about wrap">
+        <h1>Приветсвую на моём сайте!</h1>
+        <h3>Интересуюсь разработкой уже более полтора года. Начинал изучать с пайтона и созданием ботов для телеграмма.
+             Далее перешел на фронтенд разработку и изучал html, css, js и react js. 
+             Далее меня заинтересовал язык java и создание приложений для андройда, 
+    
+            В качестве развития навыков проходил более 3 курсов по разным направлениям разработки веб-приложений (верстка, javascript, react).
+     
+            </h3>
+     </div>
+    <div id="skills" class="skills wrap">
+        <h1>Стек технологий!</h1>
         <div class="skills-items">
             <div class="skill">
                 <img src="img/html.svg" alt="">
-                <h2>70%</h2>
             </div>
             <div class="skill">
                 <img src="img/css-icon.svg" alt="">
-                <h2>70%</h2>
-
             </div>
             <div class="skill">
                 <img src="img/javascript.svg" alt="">
-                <h2>70%</h2>
             </div>
             <div class="skill">
                 <img src="img/react.svg" alt="">
-                <h2>70%</h2>
             </div>
         </div>
     </div>
-    <div class="portfolio-wrap wrap">
-        <h1>Мои работы!</h1>
+    <div id="portfolio" class="portfolio wrap">
+        <h1>Портфолио работы!</h1>
         <div class="works-items">
             <div class="work">
-                
+                <div class="work-left">
+                    <a  href="https://lstnchdev.github.io/pomodoro/" target="_blank">
+                        <img src="./img/pomodoro-screen.png" alt="">
+                    </a>
+                    <div class="btn-to-web">
+                        <button>Перейти на сайт</button>
+                    </div>
+                </div>
+                <h3>
+                    <a href="https://lstnchdev.github.io/pomodoro/" target="_blank">Помодоро сайт</a> - созданный для себя, так как пользуюсь 
+                    данной методикой для формировании своего рабочего дня. Сайт создан чисто на реакте, 
+                    с использованием разных хуков. Планирую дальше дополнять этот сайт для себя, 
+                    так как не все идеи ещё реализовал (поэтому некоторые кнопки ещё не функциональны).
+                </h3>
             </div>
+            <div class="work">
+                <div class="work-left">
+                    <a href="https://lstnchdev.github.io/cloudBudget/" target="_blank">
+                        <img src="./img/cloudBudget.png" alt="">
+                    </a>
+                    <div class="btn-to-web">
+                        <button>Перейти на сайт</button>
+                    </div>
+
+                </div>
+                <h3>
+                    <a href="https://lstnchdev.github.io/cloudBudget/" target="_blank">CloudBudget</a> - адаптивный обычный одностраничный 
+                    сайт сделанный на html, css.
+                </h3>
+            </div>
+            <div class="work">
+                <div class="work-left">
+                    <a href="https://lstnchdev.github.io/sway/" target="_blank">
+                        <img src="./img/sway.png" alt="">
+                    </a>    
+                    <div class="btn-to-web">
+                        <button>Перейти на сайт</button>
+                    </div>
+                </div>
+                <h3>
+                    <a href="https://lstnchdev.github.io/sway/" target="_blank">Sway</a> - адаптивный одностраничный сайт, 
+                    где использовался чистый js для реализации dropdown кнопок, бургер меню и гибкой адаптивности шапки. 
+                    Также использовался api сайта openstreetmap для реализации карты на сайте.
+                </h3>
+            </div>
+            <div class="work">
+                <div class="work-left">
+                    <a href="https://lstnchdev.github.io/hobby-garden/" target="_blank">
+                        <img src="./img/hobby-garden.png" alt="">
+                    </a>   
+                    <div class="btn-to-web">
+                        <button>Перейти на сайт</button>
+                    </div> 
+                </div>
+                <h3>
+                    <a href="https://lstnchdev.github.io/hobby-garden/" target="_blank">Hobby Garden</a> - адаптивный одностраничный сайт, 
+                    с использованием html, css и js для реализации бургер меню и гибкой адаптивности. 
+                </h3>
+            </div>
+
         </div>
     </div>
-</body>
+    <div id="contacts" class="contacts wtap">
+        <h1>Мои контакты!</h1>
+        <div class="contacts-items">
+            <div class="contact">
+                <a href="https://github.com/lstnchDev">
+                    <img src="img/github.svg" alt="">
+                </a> 
+                <h3>
+                    <a href="https://github.com/lstnchDev">github.com/lstnchDev</a>
+                </h3>
+            </div>
+            <div class="contact">
+                <a href="https://t.me/isabitoff">
+                    <img src="img/telegram.svg" alt="">
+                </a>
+                <h3>
+                    <a href="https://t.me/isabitoff">@isabitoff</a>
+                </h3>
+            </div>
+            <div class="contact">
+                <a href="mailto:isabitoffff@gmail.com">
+                    <img src="img/gmail.svg" alt="">
+                </a> 
+                <h3>
+                    <a href="mailto:isabitoffff@gmail.com">isabitoffff@gmail.com</a>
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </html>
